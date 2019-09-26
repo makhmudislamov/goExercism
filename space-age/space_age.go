@@ -7,6 +7,13 @@ package space
 
 // Age calculates age in seconds on different planets
 func Age(seconds float64, planet string) float64 {
+	
+	// PSEUDOCODE
+	// Input >> planet string and second float64
+	// Output >> float64
+	// 
+	
+	
 	if planet == "Earth" {
 
 		return seconds / 31557600
